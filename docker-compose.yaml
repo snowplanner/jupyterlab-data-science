@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  jupyter-lab:
+    build: .
+    container_name: jupyter-lab
+    stdin_open: true
+    tty: true
+    env_file: .env
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+    ports:
+      - "8888:8888"
+    volumes:
+      - ${PWD}/src:/home/jovyan/

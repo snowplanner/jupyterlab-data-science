@@ -1,0 +1,13 @@
+geopandas
+shapely
+libpysal
+esda
+pointpats
+splot
+rtree
+geopy
+ipyleaflet
+folium
+mapclassify
+plotly
+contextily
