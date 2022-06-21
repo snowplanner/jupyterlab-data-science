@@ -20,6 +20,8 @@ docker compose build
 
 ## Usage
 
+Create a `.env` file, even if empty.
+
 After launching Docker, run the following command in terminal from the project directory root.
 
 ```bash
