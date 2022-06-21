@@ -13,4 +13,4 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ${PWD}/src:/home/jovyan/
+      - ./src:/home/jovyan/
