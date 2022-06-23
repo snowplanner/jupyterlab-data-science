@@ -10,4 +10,4 @@ ipyleaflet
 folium
 mapclassify
 plotly
-contextily
+# contextily
